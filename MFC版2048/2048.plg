@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 2048 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/2048.res" /d "NDEBUG" "E:\个人\2048\2048.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP67EF.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/2048.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\个人\2048\2048.cpp"
+"E:\个人\2048\2048Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP67EF.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP67F0.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/2048.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\个人\2048\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP67F0.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/2048.pdb" /machine:I386 /out:"Release/2048.exe"  ".\Release\2048.obj" ".\Release\2048Dlg.obj" ".\Release\StdAfx.obj" ".\Release\2048.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+2048.cpp
+D:\VC6CN\VC98\INCLUDE\new(9) : fatal error C1083: Cannot open include file: 'exception': No such file or directory
+2048Dlg.cpp
+D:\VC6CN\VC98\INCLUDE\new(9) : fatal error C1083: Cannot open include file: 'exception': No such file or directory
+Generating Code...
+执行 cl.exe 时出错.
+Creating command line "bscmake.exe /nologo /o"Release/2048.bsc"  ".\Release\StdAfx.sbr" ".\Release\2048.sbr" ".\Release\2048Dlg.sbr""
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Release\2048.sbr': No such file or directory
+执行 bscmake.exe 时出错.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+2048.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
