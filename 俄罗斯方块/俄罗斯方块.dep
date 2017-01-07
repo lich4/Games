@@ -1,0 +1,5 @@
+# Microsoft Developer Studio Generated Dependency File, included by 俄罗斯方块.mak
+
+".\俄罗斯方块.cpp" : \
+	{$(INCLUDE)}"graphics.h"\
+	
